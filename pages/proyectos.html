@@ -14,9 +14,10 @@
 
     <ul>
       <li><a href="#descripcion">Descripcion</a></li>
+      <li><a href="#formulario-parte2">Formulario primera parte</a></li>
       <li><a href="#curriculum">Curriculum</a></li>
       <li><a href="#cajas">Cajas</a></li>
-      <li><a href="#formulario">Formulario</a></li>
+      <li><a href="#formulario">Formulario segunda parte</a></li>
     </ul>
     <h1 id="descripcion">Mis proyectos</h1>
 
@@ -73,6 +74,69 @@
       </tr>
     </table>
     <br />
+    <hr>
+    <fieldset id="formulario-parte2">
+      <legend>Datos de usuario</legend>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre">
+      <br>
+      <label for="socio">Eres Socio</label>
+      <input type="radio" name="socio" value="Si, soy socio">
+      <input type="radio" name="socio" value="No soy socio">
+      <br>
+      <label for="email">Email</label>
+      <input type="email">
+      <br>
+      <label for="password">Password</label>
+      <input type="password">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Datos de Reserva</legend>
+      <select>
+        <label for="edad"></label>
+        <option value="menor">Menor de 18</option>
+        <option value="mayor">Mayor de 18</option>
+      </select>
+      <br><br>
+      <label>Seleccione fecha y hora</label><br>
+      <input type="date" name="fecha">
+      <input type="time" name="hora">
+      <br>
+      <textarea name="comentarios" id="comentarios" cols="30" rows="10">Comentarios</textarea>
+    </fieldset>
+    <hr>
+    <h4>Formulario</h4>
+    <fieldset>
+      <label for="name">Nombre</label>
+      <input type="text" name="nombre">
+      <br>
+      <label for="apellidos">Apellidos</label>
+      <input type="text" name="apellido">
+      <br>
+      <label for="email">Email</label>
+      <input type="email" name="email">
+      <br>
+      <label for="telefono">Telefono</label>
+      <input type="number">
+      <br>
+      <label for="campus ">Campus</label>
+      <Select>
+        <option value="c1">Campo1</option>
+        <option value="c2">Campo2</option>
+        <option value="c3">Campo3</option>
+        <option value="c4">Campo4</option>
+        <option value="c5">Campo5</option>
+      </Select>
+      <br>
+      <br>
+      <textarea name="mensaje" id="" cols="30" rows="10">Mensaje</textarea>
+      <br>
+      <label for="politica">Politica de privacidad</label>
+      <input type="checkbox">
+      <br>
+      <input type="button" value="Enviar">
+    </fieldset>  
     <hr>
     <section id="curriculum" class="encabezado">
       <h1>CURRICULM VITAE DE JUAN PEREZ</h1>
