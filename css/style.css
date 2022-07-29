@@ -1,0 +1,41 @@
+.encabezado{
+    background-color: cadetblue;
+}
+.encabezado h1{
+    color: darkslategrey;
+    text-align:right;
+    margin-right: 2em;
+}
+h2.title{
+    color: brown;
+    letter-spacing: 0.2rem;
+}
+h1.caja-texto{
+    color: hotpink;
+    text-align: center;
+}
+.bordeado-parrafo{
+    border-bottom: 2px solid #00F;
+}
+.border-datos{
+    border: 2px solid #AAA;
+}
+.lista{
+    border-top: 4px dotted #F00;
+    border-bottom: 4px dotted #F00;
+
+}
+.libros{
+    border: 2px dashed #0F0;
+}
+
+.form-title .form-subtitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+legend, label{
+    font-weight: bold;
+}
+input{
+    margin:1rem ;
+}
